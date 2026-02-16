@@ -1,0 +1,58 @@
+{
+  "cesp_version": "1.0",
+  "name": "peon",
+  "display_name": "Warcraft II Peon",
+  "version": "1.0.0",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/PeonReady1.wav", "label": "Ready to work" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/PeonYes1.wav", "label": "Yes" },
+        { "file": "sounds/PeonYes2.wav", "label": "Okey dokey" },
+        { "file": "sounds/PeonYes3.wav", "label": "Right" },
+        { "file": "sounds/PeonYes4.wav", "label": "Alright" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/PeonWhat1.wav", "label": "Yes?" },
+        { "file": "sounds/PeonWhat2.wav", "label": "What?" },
+        { "file": "sounds/PeonWhat3.wav", "label": "Hmm?" },
+        { "file": "sounds/PeonWhat4.wav", "label": "Something need doing?" },
+        { "file": "sounds/PeonYesAttack1.wav", "label": "Work done" },
+        { "file": "sounds/PeonYesAttack2.wav", "label": "Job's done" },
+        { "file": "sounds/PeonYesAttack3.wav", "label": "Ready" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/PeonDeath.wav", "label": "Death" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/PeonWhat1.wav", "label": "Yes?" },
+        { "file": "sounds/PeonWhat2.wav", "label": "What?" },
+        { "file": "sounds/PeonWhat3.wav", "label": "Hmm?" },
+        { "file": "sounds/PeonWhat4.wav", "label": "Something need doing?" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/PeonWarcry1.wav", "label": "War cry" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/PeonAngry1.wav", "label": "Me busy, leave me alone" },
+        { "file": "sounds/PeonAngry2.wav", "label": "Stop poking me" },
+        { "file": "sounds/PeonAngry3.wav", "label": "What you want?" },
+        { "file": "sounds/PeonAngry4.wav", "label": "That's it!" }
+      ]
+    }
+  }
+}

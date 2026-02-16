@@ -1,0 +1,11 @@
+{
+  "name": "peon-ping",
+  "version": "1.0.0",
+  "description": "Audio alerts for Claude Code using Warcraft II peon voice lines. Plays sounds when Claude finishes work, needs permission, or is idle — so you never forget about a waiting session.",
+  "author": {
+    "name": "Dan"
+  },
+  "repository": "https://github.com/DanSoQt/peon-ping",
+  "license": "MIT",
+  "keywords": ["audio", "notifications", "alerts", "sounds", "warcraft", "peon", "hooks"]
+}
